@@ -53,7 +53,7 @@ export default function SalesPage() {
         <section className="section hero">
           <span className="eyebrow">🌱 MESMO SEM INGLÊS FLUENTE</span>
           <h1>
-            Seu bebê pode crescer falando <span>dois idiomas</span> — sem escola bilíngue.
+            Seu bebê pode crescer falando <span>dois idiomas</span>, sem escola bilíngue.
           </h1>
           <p className="lead">
             O Método Semente Bilíngue te ensina, passo a passo, a criar um ambiente de inglês em
@@ -100,7 +100,7 @@ export default function SalesPage() {
             </div>
           </div>
           <div className="punchline">
-            Não existe momento perfeito. Existe o momento mais fácil — e ele é{" "}
+            Não existe momento perfeito. Existe o momento mais fácil, e ele é{" "}
             <span style={{ color: "var(--ambar-400)" }}>agora</span>.
           </div>
         </section>
@@ -113,7 +113,7 @@ export default function SalesPage() {
           </h2>
           <p className="lead">
             Foi assim que você aprendeu: sem aula marcada, sem caderno, sem prova. O inglês do seu
-            bebê pode nascer do mesmo jeito — dentro de casa.
+            bebê pode nascer do mesmo jeito, dentro de casa.
           </p>
           <div className="compare">
             <div className="col no">
@@ -156,7 +156,7 @@ export default function SalesPage() {
             <img src="/images/image-3.jpeg" alt="Estudo bilinguismo funções executivas" />
             <p>
               Crianças bilíngues saem na frente em{" "}
-              <span className="tag">memória, atenção e foco</span> — com evidência estatística
+              <span className="tag">memória, atenção e foco</span>, com evidência estatística
               forte.
             </p>
           </div>
@@ -168,7 +168,7 @@ export default function SalesPage() {
           <img src="/images/image-4.jpeg" alt="Mari e a família" />
           <h2 className="title">Eu sou a Mari</h2>
           <p className="lead">
-            Sou mãe de duas meninas — uma nascida no Brasil, outra em Portugal — e vivo cercada de
+            Sou mãe de duas meninas, uma nascida no Brasil, outra em Portugal, e vivo cercada de
             português. Mesmo assim, consegui torná-las bilíngues com 5 etapas simples. Criei o
             Método Semente Bilíngue pra qualquer mãe repetir em casa.
           </p>
@@ -179,7 +179,7 @@ export default function SalesPage() {
           <span className="eyebrow">🌱 O MÉTODO</span>
           <h2 className="title">Do jeito que uma semente cresce.</h2>
           <p className="lead">
-            Sem pressa, sem pular fases — o inglês do seu bebê cresce em etapas naturais.
+            Sem pressa, sem pular fases: o inglês do seu bebê cresce em etapas naturais.
           </p>
           <div className="method-timeline" id="tlContainer">
             <div className="tl-line-base" />
