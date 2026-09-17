@@ -57,7 +57,7 @@ export default function SalesPage() {
           </h1>
           <p className="lead">
             O Método Semente Bilíngue te ensina, passo a passo, a criar um ambiente de inglês em
-            casa — do jeito que seu bebê aprende português: vivendo, não estudando.
+            casa, do jeito que seu bebê aprende português: vivendo, não estudando.
           </p>
           <div className="video-wrap">
             <iframe
