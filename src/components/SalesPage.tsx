@@ -6,14 +6,12 @@ const CHECKOUT_URL = "https://pay.kiwify.com.br/2ctqOP0";
 
 export default function SalesPage() {
   useEffect(() => {
-    const screenEl = document.getElementById("screen");
     const container = document.getElementById("tlContainer");
     const fillEl = document.getElementById("tlFill");
-    if (!screenEl || !container || !fillEl) return;
+    if (!container || !fillEl) return;
 
     function update() {
-      const screenRect = screenEl!.getBoundingClientRect();
-      const triggerY = screenRect.top + screenRect.height * 0.78;
+      const triggerY = window.innerHeight * 0.78;
       const containerRect = container!.getBoundingClientRect();
       const steps = container!.querySelectorAll(".tl-step");
       let fillPx = 0;
@@ -30,32 +28,26 @@ export default function SalesPage() {
       fillEl!.style.height = Math.max(0, fillPx) + "px";
     }
 
-    screenEl.addEventListener("scroll", update, { passive: true });
+    window.addEventListener("scroll", update, { passive: true });
     window.addEventListener("resize", update);
     const timeout = setTimeout(update, 60);
 
     return () => {
-      screenEl.removeEventListener("scroll", update);
+      window.removeEventListener("scroll", update);
       window.removeEventListener("resize", update);
       clearTimeout(timeout);
     };
   }, []);
 
   return (
-    <div className="phone">
+    <div className="page">
       {/* eslint-disable @next/next/no-img-element */}
-      <div className="screen" id="screen">
-        <div className="statusbar">
-          <span>9:41</span>
-          <span className="icons">📶 🔋</span>
-        </div>
-
-        <div className="topbar">
-          <img src="/images/image-1.png" alt="Semente Bilíngue" />
-          <a href={CHECKOUT_URL} className="pill">
-            Garantir vaga
-          </a>
-        </div>
+      <div className="topbar">
+        <img src="/images/image-1.png" alt="Semente Bilíngue" />
+        <a href={CHECKOUT_URL} className="pill">
+          Garantir vaga
+        </a>
+      </div>
 
         {/* HERO */}
         <section className="section hero">
@@ -125,21 +117,21 @@ export default function SalesPage() {
           </p>
           <div className="compare">
             <div className="col no">
-              <h4>Ensinar</h4>
+              <h4>📚 Ensinar</h4>
               <div className="sub">o jeito da escola</div>
               <ul>
-                <li>Aula e horário marcado</li>
-                <li>Decorar palavras</li>
-                <li>Prova e cobrança</li>
+                <li>⏰ Aula e horário marcado</li>
+                <li>📝 Decorar palavras</li>
+                <li>😰 Prova e cobrança</li>
               </ul>
             </div>
             <div className="col yes">
-              <h4>Conviver</h4>
+              <h4>🏡 Conviver</h4>
               <div className="sub">o jeito de casa</div>
               <ul>
-                <li>Conversa do dia a dia</li>
-                <li>Música e brincadeira</li>
-                <li>Repetição natural</li>
+                <li>💬 Conversa do dia a dia</li>
+                <li>🎵 Música e brincadeira</li>
+                <li>🔁 Repetição natural</li>
               </ul>
             </div>
           </div>
@@ -248,35 +240,35 @@ export default function SalesPage() {
             <div className="offer-item">
               <span className="ok">✓</span>
               <div>
-                <h4>Curso completo</h4>
+                <h4>🎓 Curso completo</h4>
                 <p>Passo a passo pra aplicar o método, sem enrolação.</p>
               </div>
             </div>
             <div className="offer-item">
               <span className="ok">✓</span>
               <div>
-                <h4>Guia de vocabulário</h4>
+                <h4>📖 Guia de vocabulário</h4>
                 <p>Frases prontas pra usar no dia a dia do bebê.</p>
               </div>
             </div>
             <div className="offer-item">
               <span className="ok">✓</span>
               <div>
-                <h4>Comunidade de pais</h4>
+                <h4>👨‍👩‍👧 Comunidade de pais</h4>
                 <p>Troca diária com quem tá vivendo o mesmo momento.</p>
               </div>
             </div>
             <div className="offer-item">
               <span className="ok">✓</span>
               <div>
-                <h4>Diário de Marcos</h4>
+                <h4>📔 Diário de Marcos</h4>
                 <p>Acompanhe a evolução bilíngue do seu bebê.</p>
               </div>
             </div>
             <div className="offer-item">
               <span className="ok">✓</span>
               <div>
-                <h4>Aulas ao vivo</h4>
+                <h4>🎥 Aulas ao vivo</h4>
                 <p>Tire suas dúvidas direto comigo.</p>
               </div>
             </div>
@@ -362,16 +354,15 @@ export default function SalesPage() {
           </div>
         </section>
 
-        <div className="foot">
-          <span className="badge-logo">
-            <img src="/images/image-1.png" alt="Semente Bilíngue" />
-          </span>
-          <p>
-            © Semente Bilíngue · Método criado por Mari
-            <br />
-            Pagamentos processados pela Kiwify
-          </p>
-        </div>
+      <div className="foot">
+        <span className="badge-logo">
+          <img src="/images/image-1.png" alt="Semente Bilíngue" />
+        </span>
+        <p>
+          © Semente Bilíngue · Método criado por Mari
+          <br />
+          Pagamentos processados pela Kiwify
+        </p>
       </div>
     </div>
   );
