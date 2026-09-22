@@ -2,9 +2,23 @@ import type { Metadata } from "next";
 import Script from "next/script";
 import "./globals.css";
 
+const siteDescription =
+  "O Método Semente Bilíngue te ensina, passo a passo, a criar um ambiente de inglês em casa.";
+
 export const metadata: Metadata = {
   title: "Semente Bilíngue",
-  description: "O Método Semente Bilíngue te ensina, passo a passo, a criar um ambiente de inglês em casa.",
+  description: siteDescription,
+  openGraph: {
+    title: "Semente Bilíngue",
+    description: siteDescription,
+    images: ["/images/social-icon.png"],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Semente Bilíngue",
+    description: siteDescription,
+    images: ["/images/social-icon.png"],
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
