@@ -11,10 +11,10 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Semente Bilíngue",
     description: siteDescription,
-    images: ["/images/social-icon.png"],
+    images: [{ url: "/images/social-icon.png", width: 200, height: 200 }],
   },
   twitter: {
-    card: "summary_large_image",
+    card: "summary",
     title: "Semente Bilíngue",
     description: siteDescription,
     images: ["/images/social-icon.png"],
