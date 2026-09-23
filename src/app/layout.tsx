@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Semente Bilíngue",
     description: siteDescription,
-    images: [{ url: "/images/social-icon.png", width: 200, height: 200 }],
+    images: [{ url: "/images/social-icon.png", width: 192, height: 192 }],
   },
   twitter: {
     card: "summary",
