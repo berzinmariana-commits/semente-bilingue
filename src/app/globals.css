@@ -104,6 +104,7 @@ p.lead { font-size:14.5px; color:var(--navy-700); line-height:1.55; font-weight:
 
 /* METHOD */
 .method { background:var(--cream-50); }
+.method p.lead { margin-bottom:10px; }
 .method-timeline { position:relative; margin-top:20px; }
 .tl-line-base { position:absolute; left:17px; top:18px; bottom:18px; width:2px; background:var(--cream-200); }
 .tl-line-fill { position:absolute; left:17px; top:18px; width:2px; height:0;
@@ -116,10 +117,29 @@ p.lead { font-size:14.5px; color:var(--navy-700); line-height:1.55; font-weight:
   display:flex; align-items:center; justify-content:center; box-shadow:0 0 0 6px var(--cream-50);
   z-index:2; opacity:.3; transform:scale(.7); transition:opacity .4s ease, transform .4s ease; }
 .tl-step.in-view .tl-dot { opacity:1; transform:scale(1); }
-.tl-content { opacity:.4; transition:opacity .4s ease; padding-top:5px; }
+.tl-content { opacity:.4; transition:opacity .4s ease; border-radius:14px; padding:12px 14px;
+  border:1px solid transparent; margin-top:-2px; }
 .tl-step.in-view .tl-content { opacity:1; }
-.tl-content h4 { font-family:'Baloo 2',sans-serif; font-size:14.5px; color:var(--navy-900); margin-bottom:2px; }
-.tl-content p { font-size:12.5px; color:var(--navy-700); font-weight:600; line-height:1.4; }
+.tl-content h4 { font-family:'Baloo 2',sans-serif; font-size:14.5px; color:var(--navy-900); margin-bottom:4px; }
+.tl-content p { font-size:12.5px; color:var(--navy-700); font-weight:600; line-height:1.4; margin-bottom:6px; }
+.tl-content p:last-child { margin-bottom:0; }
+.tl-content.step-1 { background:color-mix(in srgb, var(--etapa-1) 10%, var(--cream-50));
+  border-color:color-mix(in srgb, var(--etapa-1) 35%, transparent); }
+.tl-content.step-2 { background:color-mix(in srgb, var(--etapa-2) 14%, var(--cream-50));
+  border-color:color-mix(in srgb, var(--etapa-2) 40%, transparent); }
+.tl-content.step-3 { background:color-mix(in srgb, var(--etapa-3) 12%, var(--cream-50));
+  border-color:color-mix(in srgb, var(--etapa-3) 38%, transparent); }
+.tl-content.step-4 { background:color-mix(in srgb, var(--etapa-4) 12%, var(--cream-50));
+  border-color:color-mix(in srgb, var(--etapa-4) 38%, transparent); }
+.tl-content.step-5 { background:color-mix(in srgb, var(--etapa-5) 10%, var(--cream-50));
+  border-color:color-mix(in srgb, var(--etapa-5) 35%, transparent); }
+.tl-content.step-1 h4 { color:var(--etapa-1); }
+.tl-content.step-2 h4 { color:color-mix(in srgb, var(--etapa-2) 75%, var(--navy-900)); }
+.tl-content.step-3 h4 { color:var(--etapa-3); }
+.tl-content.step-4 h4 { color:var(--etapa-4); }
+.tl-content.step-5 h4 { color:var(--etapa-5); }
+.method-intro-title { font-family:'Baloo 2',sans-serif; font-weight:800; color:var(--navy-900);
+  font-size:14px; letter-spacing:.02em; margin-bottom:8px !important; }
 
 /* OFFER */
 .offer { background:var(--navy-900); color:var(--white); }
