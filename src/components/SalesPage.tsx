@@ -51,13 +51,15 @@ export default function SalesPage() {
 
         {/* HERO */}
         <section className="section hero">
-          <span className="eyebrow">🌱 MESMO SEM INGLÊS FLUENTE</span>
+          <span className="eyebrow">🌱 APRENDA A TORNAR O SEU BEBÊ BILÍNGUE</span>
           <h1>
-            Seu bebê pode crescer falando <span>dois idiomas</span>, sem escola bilíngue.
+            Seu bebê pode crescer sabendo <span>inglês desde cedo</span>, mesmo que você não seja
+            fluente.
           </h1>
           <p className="lead">
-            O Método Semente Bilíngue te ensina, passo a passo, a criar um ambiente de inglês em
-            casa, do jeito que seu bebê aprende português: vivendo, não estudando.
+            Você não precisa morar fora, falar inglês o dia inteiro ou transformar sua casa em uma
+            escola. Aprenda a inserir o inglês que você já sabe nos momentos que fazem parte da
+            rotina do seu bebê, de forma simples, natural e possível para a sua família.
           </p>
           <div className="video-wrap">
             <iframe
