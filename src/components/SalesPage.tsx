@@ -81,29 +81,76 @@ export default function SalesPage() {
 
         {/* PROBLEMA */}
         <section className="section problem">
-          <span className="eyebrow">🤔 O ERRO MAIS COMUM</span>
-          <h2 className="title">A maioria das famílias espera.</h2>
+          <span className="eyebrow">🤔 OS ERROS MAIS COMUNS</span>
+          <h2 className="title">A maioria pensa que para crescer bilíngue precisa:</h2>
           <div className="problem-list">
-            <div className="problem-item">
-              <span className="x">✕</span>
-              <p>Espera o filho &quot;crescer um pouco&quot; primeiro</p>
-            </div>
-            <div className="problem-item">
-              <span className="x">✕</span>
-              <p>Acha que precisa de escola bilíngue</p>
-            </div>
-            <div className="problem-item">
-              <span className="x">✕</span>
-              <p>Acha que precisa gastar uma fortuna</p>
-            </div>
-            <div className="problem-item">
-              <span className="x">✕</span>
-              <p>Acha que precisa ser fluente antes de começar</p>
-            </div>
+            <details className="problem-item">
+              <summary>
+                <span className="x">✕</span>
+                <span className="problem-title">MORAR FORA</span>
+                <span className="chev">+</span>
+              </summary>
+              <p>
+                Seu bebê pode ter contato com o inglês mesmo crescendo em um lar onde o português
+                (ou outro idioma) é a língua principal.
+              </p>
+            </details>
+            <details className="problem-item">
+              <summary>
+                <span className="x">✕</span>
+                <span className="problem-title">ESCOLA BILÍNGUE</span>
+                <span className="chev">+</span>
+              </summary>
+              <p>
+                Essa é clássica, mas nem toda família pode investir em uma escola bilíngue. E
+                mesmo quando pode, existe algo que você pode começar muito antes: inserir o
+                inglês na rotina do seu bebê. Quando o idioma é vivido em momentos de afeto,
+                brincadeira e conexão, ele deixa de ser apenas uma matéria e passa a fazer parte
+                da vida, e isso faz toda a diferença.
+              </p>
+            </details>
+            <details className="problem-item">
+              <summary>
+                <span className="x">✕</span>
+                <span className="problem-title">MATERIAIS CAROS</span>
+                <span className="chev">+</span>
+              </summary>
+              <p>
+                Você não precisa encher a casa de recursos em inglês. O método ensina você a
+                aproveitar livros, músicas, brincadeiras, banho, refeições e outros momentos que
+                já fazem parte do seu dia.
+              </p>
+            </details>
+            <details className="problem-item">
+              <summary>
+                <span className="x">✕</span>
+                <span className="problem-title">FALAR INGLÊS O DIA TODO</span>
+                <span className="chev">+</span>
+              </summary>
+              <p>
+                Bilinguismo não começa quando você consegue falar inglês 24 horas por dia. Começa
+                quando o idioma passa a fazer parte da experiência da criança de maneira frequente
+                e significativa.
+              </p>
+            </details>
+            <details className="problem-item">
+              <summary>
+                <span className="x">✕</span>
+                <span className="problem-title">SER FLUENTE OU TER PRONÚNCIA PERFEITA</span>
+                <span className="chev">+</span>
+              </summary>
+              <p>
+                Você não precisa esperar dominar o inglês para começar a interagir com seu bebê.
+                Você precisa aprender o que dizer, quando dizer e como transformar essas
+                interações em exposição de qualidade. E a notícia boa é: o seu inglês básico é o
+                suficiente para tornar isso possível.
+              </p>
+            </details>
           </div>
           <div className="punchline">
-            Não existe momento perfeito. Existe o momento mais fácil, e ele é{" "}
-            <span style={{ color: "var(--ambar-400)" }}>agora</span>.
+            Cada fase do seu bebê chega uma única vez.
+            <br />
+            Aproveite também a fase em que aprender é tão natural.
           </div>
         </section>
 
