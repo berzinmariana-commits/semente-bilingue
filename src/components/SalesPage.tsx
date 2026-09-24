@@ -213,14 +213,31 @@ export default function SalesPage() {
 
         {/* BIO */}
         <section className="section bio">
-          <div className="script">Hello.</div>
           <img src="/images/image-4.jpeg" alt="Mari e a família" />
-          <h2 className="title">Eu sou a Mari</h2>
+          <h2 className="title">Hello, eu sou a Mari</h2>
           <p className="lead">
-            Sou mãe de duas meninas, uma nascida no Brasil, outra em Portugal, e vivo cercada de
-            português. Mesmo assim, consegui torná-las bilíngues com 5 etapas simples. Criei o
-            Método Semente Bilíngue pra qualquer mãe repetir em casa.
+            Sou a criadora do Método Semente Bilíngue, desenvolvido a partir da minha vivência
+            com a língua inglesa nos Estados Unidos e, principalmente, da experiência de aplicar
+            esse conhecimento na minha própria maternidade.
           </p>
+          <p className="lead">
+            Ao me tornar mãe, percebi que não precisava morar em um país de língua inglesa, falar
+            inglês o dia inteiro ou ser fluente para oferecer esse idioma às minhas filhas.
+          </p>
+          <p className="lead">
+            Mesmo vivendo em um ambiente predominantemente em português, no Brasil e em Portugal,
+            desenvolvi uma forma simples e estratégica de inserir o inglês na rotina delas desde
+            os primeiros meses de vida.
+          </p>
+          <p className="lead">
+            Foi dessa experiência que nasceu o Método Semente Bilíngue: 5 etapas para ajudar
+            famílias a transformar a rotina que já têm em oportunidades reais de contato com o
+            inglês.
+          </p>
+          <p className="lead">Agora, quero ensinar você a fazer o mesmo com o seu bebê.</p>
+          <a href={CHECKOUT_URL} className="btn">
+            QUERO APRENDER
+          </a>
         </section>
 
         {/* MÉTODO */}

@@ -99,8 +99,8 @@ p.lead { font-size:14.5px; color:var(--navy-700); line-height:1.55; font-weight:
 /* BIO */
 .bio { background:var(--sand-100); }
 .bio img { width:100%; border-radius:20px; box-shadow:0 10px 24px rgba(59,74,102,.15); display:block; margin-bottom:14px; }
-.bio .script { font-size:30px; color:var(--laranja-500); line-height:1; margin-bottom:6px; }
-.bio h2 { margin-bottom:8px; }
+.bio h2 { margin-bottom:12px; }
+.bio p.lead { margin-bottom:10px; }
 
 /* METHOD */
 .method { background:var(--cream-50); }
