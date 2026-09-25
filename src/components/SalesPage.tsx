@@ -110,7 +110,7 @@ export default function SalesPage() {
           <div className="callout">
             <p>
               Não é cedo demais, pelo contrário, é a fase que o seu bebê aprende com mais
-              facilidade e a ciência explica:
+              facilidade!
             </p>
           </div>
         </section>
