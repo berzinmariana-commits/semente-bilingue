@@ -240,7 +240,17 @@ export default function SalesPage() {
                 nos sons que fazem parte do seu ambiente linguístico.
               </p>
             </div>
-            <img src="/images/image-2.jpeg" alt="Gráfico Harvard desenvolvimento cerebral" />
+            <div className="science-image-card">
+              <img src="/images/image-2.jpeg" alt="Gráfico Harvard desenvolvimento cerebral" />
+              <p>
+                <strong>Explicação:</strong> Segundo o gráfico do Harvard Center on the Developing
+                Child, aos 6 meses o bebê já está em pleno processo de aprendizagem da linguagem.
+                Enquanto muitos pais ainda esperam as primeiras palavras, ele já está ouvindo,
+                reconhecendo sons e construindo conexões. Por isso, inserir o inglês nessa fase é
+                aproveitar um período em que o cérebro está especialmente preparado para aprender
+                linguagem, que com o passar dos anos e da vida adulta, não se mantém igual.
+              </p>
+            </div>
           </div>
           <div className="science-card">
             <div className="science-box">
