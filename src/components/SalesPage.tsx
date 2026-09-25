@@ -115,6 +115,115 @@ export default function SalesPage() {
           </div>
         </section>
 
+        {/* PROBLEMA */}
+        <section className="section problem">
+          <span className="eyebrow">🤔 MITOS COMUNS</span>
+          <h2 className="title">5 mitos que fazem pais adiarem o bilinguismo</h2>
+          <div className="problem-list">
+            <details className="problem-item">
+              <summary>
+                <span className="x">✕</span>
+                <div className="problem-title">
+                  <span className="mito-label">MITO 01</span>
+                  <span className="mito-quote">
+                    &quot;Só é possível criar um bebê bilíngue morando fora.&quot;
+                  </span>
+                </div>
+                <span className="chev">+</span>
+              </summary>
+              <p>
+                Seu bebê pode ter contato com o inglês mesmo crescendo em um lar onde o português
+                (ou outro idioma) é a língua principal.
+              </p>
+            </details>
+            <details className="problem-item">
+              <summary>
+                <span className="x">✕</span>
+                <div className="problem-title">
+                  <span className="mito-label">MITO 02</span>
+                  <span className="mito-quote">
+                    &quot;Meu inglês é básico demais para isso.&quot;
+                  </span>
+                </div>
+                <span className="chev">+</span>
+              </summary>
+              <p>
+                A boa notícia é que você não precisa ser fluente para começar. O inglês que você
+                já sabe pode ser suficiente para criar momentos de contato, interação e
+                aprendizado com seu bebê.
+              </p>
+            </details>
+            <details className="problem-item">
+              <summary>
+                <span className="x">✕</span>
+                <div className="problem-title">
+                  <span className="mito-label">MITO 03</span>
+                  <span className="mito-quote">
+                    &quot;Preciso colocá-lo em uma escola bilíngue.&quot;
+                  </span>
+                </div>
+                <span className="chev">+</span>
+              </summary>
+              <p>
+                Em algum momento, ele provavelmente terá contato com o inglês na escola, seja ela
+                bilíngue ou não. Mas a interação com o idioma pode começar muito antes, na rotina
+                do seu bebê.
+              </p>
+              <p>
+                Quando o idioma é vivido em momentos de afeto, brincadeira e conexão, ele deixa de
+                ser apenas uma matéria e passa a fazer parte da vida.
+              </p>
+              <p>E isso faz toda a diferença.</p>
+            </details>
+            <details className="problem-item">
+              <summary>
+                <span className="x">✕</span>
+                <div className="problem-title">
+                  <span className="mito-label">MITO 04</span>
+                  <span className="mito-quote">
+                    &quot;Duas línguas vão confundir meu bebê, vou esperar ele crescer pra
+                    começar!&quot;
+                  </span>
+                </div>
+                <span className="chev">+</span>
+              </summary>
+              <p>
+                Pelo contrário: os primeiros anos são justamente uma fase de grande capacidade de
+                aprendizagem da linguagem. O cérebro do bebê está constantemente ouvindo,
+                reconhecendo sons e construindo conexões e consegue fazer isso com mais de um
+                idioma.
+              </p>
+              <p>Ele já está pronto para se tornar bilíngue, agora! 🌱</p>
+            </details>
+            <details className="problem-item">
+              <summary>
+                <span className="x">✕</span>
+                <div className="problem-title">
+                  <span className="mito-label">MITO 05</span>
+                  <span className="mito-quote">
+                    &quot;Para funcionar, preciso falar inglês com ele o dia inteiro.&quot;
+                  </span>
+                </div>
+                <span className="chev">+</span>
+              </summary>
+              <p>
+                Não é preciso transformar a casa inteira em inglês para começar. Momentos
+                frequentes de interação, repetição e significado já criam oportunidades
+                importantes de contato com o idioma.
+              </p>
+              <p>
+                O segredo não é falar inglês o tempo todo, é aprender a inserir o inglês de forma
+                consistente na rotina que vocês já têm.
+              </p>
+            </details>
+          </div>
+          <div className="punchline">
+            Cada fase do seu bebê chega uma única vez.
+            <br />
+            Aproveite também a fase em que aprender é tão natural.
+          </div>
+        </section>
+
         {/* CIÊNCIA */}
         <section className="section science">
           <span className="eyebrow">🔬 NÃO É ACHISMO</span>
@@ -157,81 +266,6 @@ export default function SalesPage() {
                 tentativas de comunicação ajuda a construir a linguagem desde cedo.
               </p>
             </div>
-          </div>
-        </section>
-
-        {/* PROBLEMA */}
-        <section className="section problem">
-          <span className="eyebrow">🤔 OS ERROS MAIS COMUNS</span>
-          <h2 className="title">A maioria pensa que para crescer bilíngue precisa:</h2>
-          <div className="problem-list">
-            <details className="problem-item">
-              <summary>
-                <span className="x">✕</span>
-                <span className="problem-title">MORAR FORA</span>
-                <span className="chev">+</span>
-              </summary>
-              <p>
-                Seu bebê pode ter contato com o inglês mesmo crescendo em um lar onde o português
-                (ou outro idioma) é a língua principal.
-              </p>
-            </details>
-            <details className="problem-item">
-              <summary>
-                <span className="x">✕</span>
-                <span className="problem-title">ESCOLA BILÍNGUE</span>
-                <span className="chev">+</span>
-              </summary>
-              <p>
-                Essa é clássica, mas nem toda família pode investir em uma escola bilíngue. E
-                mesmo quando pode, existe algo que você pode começar muito antes: inserir o
-                inglês na rotina do seu bebê. Quando o idioma é vivido em momentos de afeto,
-                brincadeira e conexão, ele deixa de ser apenas uma matéria e passa a fazer parte
-                da vida, e isso faz toda a diferença.
-              </p>
-            </details>
-            <details className="problem-item">
-              <summary>
-                <span className="x">✕</span>
-                <span className="problem-title">MATERIAIS CAROS</span>
-                <span className="chev">+</span>
-              </summary>
-              <p>
-                Você não precisa encher a casa de recursos em inglês. O método ensina você a
-                aproveitar livros, músicas, brincadeiras, banho, refeições e outros momentos que
-                já fazem parte do seu dia.
-              </p>
-            </details>
-            <details className="problem-item">
-              <summary>
-                <span className="x">✕</span>
-                <span className="problem-title">FALAR INGLÊS O DIA TODO</span>
-                <span className="chev">+</span>
-              </summary>
-              <p>
-                Bilinguismo não começa quando você consegue falar inglês 24 horas por dia. Começa
-                quando o idioma passa a fazer parte da experiência da criança de maneira frequente
-                e significativa.
-              </p>
-            </details>
-            <details className="problem-item">
-              <summary>
-                <span className="x">✕</span>
-                <span className="problem-title">SER FLUENTE OU TER PRONÚNCIA PERFEITA</span>
-                <span className="chev">+</span>
-              </summary>
-              <p>
-                Você não precisa esperar dominar o inglês para começar a interagir com seu bebê.
-                Você precisa aprender o que dizer, quando dizer e como transformar essas
-                interações em exposição de qualidade. E a notícia boa é: o seu inglês básico é o
-                suficiente para tornar isso possível.
-              </p>
-            </details>
-          </div>
-          <div className="punchline">
-            Cada fase do seu bebê chega uma única vez.
-            <br />
-            Aproveite também a fase em que aprender é tão natural.
           </div>
         </section>
 
