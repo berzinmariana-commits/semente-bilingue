@@ -281,8 +281,7 @@ export default function SalesPage() {
 
         {/* BIO */}
         <section className="section bio">
-          <img src="/images/image-4.jpeg" alt="Mari e a família" />
-          <h2 className="title">Hello, eu sou a Mari</h2>
+          <img src="/images/image-4.png" alt="Hello, eu sou a Mari" />
           <p className="lead">
             Sou a criadora do Método Semente Bilíngue, desenvolvido a partir da minha vivência
             com a língua inglesa nos Estados Unidos e, principalmente, da experiência de aplicar
@@ -293,9 +292,9 @@ export default function SalesPage() {
             inglês o dia inteiro ou ser fluente para oferecer esse idioma às minhas filhas.
           </p>
           <p className="lead">
-            Mesmo vivendo em um ambiente predominantemente em português, no Brasil e em Portugal,
-            desenvolvi uma forma simples e estratégica de inserir o inglês na rotina delas desde
-            os primeiros meses de vida.
+            Mesmo vivendo em um ambiente predominantemente em português, no Brasil e atualmente
+            em Portugal, desenvolvi uma forma simples e estratégica de inserir o inglês na rotina
+            delas desde os primeiros meses de vida.
           </p>
           <p className="lead">
             Foi dessa experiência que nasceu o Método Semente Bilíngue: 5 etapas para ajudar
