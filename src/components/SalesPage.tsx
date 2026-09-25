@@ -79,6 +79,87 @@ export default function SalesPage() {
           </div>
         </section>
 
+        {/* VIRADA */}
+        <section className="section shift">
+          <span className="eyebrow">💡 A VIRADA DE CHAVE</span>
+          <h2 className="title">Saber como fazer faz toda a diferença.</h2>
+          <div className="compare">
+            <div className="col no">
+              <h4>❌ O jeito que costuma acontecer</h4>
+              <ul>
+                <li>Esperar aprender inglês melhor para começar</li>
+                <li>Decorar listas de palavras</li>
+                <li>Colocar vídeos em inglês e esperar que o bebê aprenda</li>
+                <li>Tentar falar inglês o dia inteiro</li>
+                <li>Desistir porque o bebê ainda não fala</li>
+              </ul>
+            </div>
+            <div className="col yes">
+              <h4>🌱 O jeito Semente Bilíngue</h4>
+              <ul>
+                <li>Começar com o inglês que você já sabe</li>
+                <li>Aprender palavras dentro de situações reais</li>
+                <li>Priorizar interação humana e participação ativa</li>
+                <li>Criar momentos consistentes de exposição dentro da rotina</li>
+                <li>
+                  Entender que compreensão e participação também são parte do processo
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className="callout">
+            <p>
+              Não é cedo demais, pelo contrário, é a fase que o seu bebê aprende com mais
+              facilidade e a ciência explica:
+            </p>
+          </div>
+        </section>
+
+        {/* CIÊNCIA */}
+        <section className="section science">
+          <span className="eyebrow">🔬 NÃO É ACHISMO</span>
+          <h2 className="title">Isso aqui é ciência, não modinha.</h2>
+          <p className="science-subtitle">
+            O QUE A CIÊNCIA JÁ SABE SOBRE COMO OS BEBÊS APRENDEM LÍNGUAS:
+          </p>
+          <div className="science-card">
+            <div className="science-box">
+              <h3>💬 01 — Os primeiros anos importam</h3>
+              <p>
+                O cérebro do bebê está especialmente envolvido em perceber e organizar os sons da
+                linguagem desde muito cedo. Ao longo do primeiro ano, ele vai se especializando
+                nos sons que fazem parte do seu ambiente linguístico.
+              </p>
+            </div>
+            <img src="/images/image-2.jpeg" alt="Gráfico Harvard desenvolvimento cerebral" />
+          </div>
+          <div className="science-card">
+            <div className="science-box">
+              <h3>🧠 02 — Dois idiomas, mais benefícios para o cérebro</h3>
+              <p>
+                Além de aprender uma nova língua, o contato com dois idiomas desde cedo pode
+                favorecer habilidades como atenção, flexibilidade cognitiva e capacidade de
+                alternar entre informações.
+              </p>
+              <p>É mais uma forma de o cérebro aprender, se adaptar e fazer conexões.</p>
+            </div>
+            <img src="/images/image-3.jpeg" alt="Estudo bilinguismo funções executivas" />
+          </div>
+          <div className="science-card">
+            <div className="science-box">
+              <h3>👶 03 — Antes das palavras, vem a percepção</h3>
+              <p>
+                O bebê não começa aprendendo a falar. Primeiro, ele escuta, observa, reconhece e
+                diferencia.
+              </p>
+              <p>
+                Conversar, cantar, brincar, nomear o que estão fazendo e responder às suas
+                tentativas de comunicação ajuda a construir a linguagem desde cedo.
+              </p>
+            </div>
+          </div>
+        </section>
+
         {/* PROBLEMA */}
         <section className="section problem">
           <span className="eyebrow">🤔 OS ERROS MAIS COMUNS</span>
@@ -151,63 +232,6 @@ export default function SalesPage() {
             Cada fase do seu bebê chega uma única vez.
             <br />
             Aproveite também a fase em que aprender é tão natural.
-          </div>
-        </section>
-
-        {/* VIRADA */}
-        <section className="section shift">
-          <span className="eyebrow">💡 A VIRADA DE CHAVE</span>
-          <h2 className="title">
-            Ninguém te ensinou português. Você <em>viveu</em> português.
-          </h2>
-          <p className="lead">
-            Foi assim que você aprendeu: sem aula marcada, sem caderno, sem prova. O inglês do seu
-            bebê pode nascer do mesmo jeito, dentro de casa.
-          </p>
-          <div className="compare">
-            <div className="col no">
-              <h4>📚 Ensinar</h4>
-              <div className="sub">o jeito da escola</div>
-              <ul>
-                <li>⏰ Aula e horário marcado</li>
-                <li>📝 Decorar palavras</li>
-                <li>😰 Prova e cobrança</li>
-              </ul>
-            </div>
-            <div className="col yes">
-              <h4>🏡 Conviver</h4>
-              <div className="sub">o jeito de casa</div>
-              <ul>
-                <li>💬 Conversa do dia a dia</li>
-                <li>🎵 Música e brincadeira</li>
-                <li>🔁 Repetição natural</li>
-              </ul>
-            </div>
-          </div>
-          <div className="callout">
-            <div className="script">Não é ensinar.</div>
-            <p>É conviver. E conviver você já sabe fazer.</p>
-          </div>
-        </section>
-
-        {/* CIÊNCIA */}
-        <section className="section science">
-          <span className="eyebrow">🔬 NÃO É ACHISMO</span>
-          <h2 className="title">Isso aqui é ciência, não modinha.</h2>
-          <div className="science-card">
-            <img src="/images/image-2.jpeg" alt="Gráfico Harvard desenvolvimento cerebral" />
-            <p>
-              <span className="tag">Harvard University</span> confirma: a janela mais forte do
-              cérebro pra linguagem é entre <b>0 e 3 anos</b>.
-            </p>
-          </div>
-          <div className="science-card">
-            <img src="/images/image-3.jpeg" alt="Estudo bilinguismo funções executivas" />
-            <p>
-              Crianças bilíngues saem na frente em{" "}
-              <span className="tag">memória, atenção e foco</span>, com evidência estatística
-              forte.
-            </p>
           </div>
         </section>
 
