@@ -79,39 +79,44 @@ export default function SalesPage() {
           </div>
         </section>
 
+        {/* CALLOUT */}
+        <section className="section callout-section">
+          <div className="callout">
+            <p>
+              Não é cedo demais, pelo contrário, é a fase que o seu bebê aprende com mais
+              facilidade!
+            </p>
+          </div>
+        </section>
+
         {/* VIRADA */}
         <section className="section shift">
           <span className="eyebrow">💡 A VIRADA DE CHAVE</span>
           <h2 className="title">Saber como fazer faz toda a diferença.</h2>
           <div className="compare">
             <div className="col no">
-              <h4>❌ O jeito que costuma acontecer</h4>
+              <h4>❌ O que muitos pais imaginam quando pensam em criar um bebê bilíngue:</h4>
               <ul>
-                <li>Esperar aprender inglês melhor para começar</li>
-                <li>Decorar listas de palavras</li>
-                <li>Colocar vídeos em inglês e esperar que o bebê aprenda</li>
-                <li>Tentar falar inglês o dia inteiro</li>
-                <li>Desistir porque o bebê ainda não fala</li>
+                <li>&quot;Preciso ser fluente para começar.&quot;</li>
+                <li>&quot;Preciso aprender muitas palavras antes.&quot;</li>
+                <li>&quot;Se ele só assistir vídeos em inglês, vai aprender.&quot;</li>
+                <li>&quot;Vou precisar falar inglês o dia inteiro.&quot;</li>
+                <li>&quot;Se ele ainda não fala, talvez não esteja funcionando.&quot;</li>
               </ul>
             </div>
             <div className="col yes">
               <h4>🌱 O jeito Semente Bilíngue</h4>
               <ul>
                 <li>Começar com o inglês que você já sabe</li>
-                <li>Aprender palavras dentro de situações reais</li>
-                <li>Priorizar interação humana e participação ativa</li>
-                <li>Criar momentos consistentes de exposição dentro da rotina</li>
+                <li>Foca em aprender as palavras que fazem parte da rotina de vocês</li>
                 <li>
-                  Entender que compreensão e participação também são parte do processo
+                  Interação com os pais é melhor. Você vai aprender a brincar, cantar e interagir
+                  em inglês.
                 </li>
+                <li>Criar pequenos momentos em inglês ao longo da rotina já gera resultados</li>
+                <li>Continuar, mesmo antes das primeiras palavras</li>
               </ul>
             </div>
-          </div>
-          <div className="callout">
-            <p>
-              Não é cedo demais, pelo contrário, é a fase que o seu bebê aprende com mais
-              facilidade!
-            </p>
           </div>
         </section>
 
@@ -226,11 +231,10 @@ export default function SalesPage() {
 
         {/* CIÊNCIA */}
         <section className="section science">
-          <span className="eyebrow">🔬 NÃO É ACHISMO</span>
-          <h2 className="title">Isso aqui é ciência, não modinha.</h2>
-          <p className="science-subtitle">
-            O QUE A CIÊNCIA JÁ SABE SOBRE COMO OS BEBÊS APRENDEM LÍNGUAS:
-          </p>
+          <span className="eyebrow">🔬 ISSO AQUI É CIÊNCIA, NÃO MODINHA</span>
+          <h2 className="title">
+            O que a ciência já sabe sobre como os bebês aprendem idiomas:
+          </h2>
           <div className="science-card">
             <div className="science-box">
               <h3>💬 01 — Os primeiros anos importam</h3>
@@ -241,7 +245,175 @@ export default function SalesPage() {
               </p>
             </div>
             <div className="science-image-card">
-              <img src="/images/image-2.jpeg" alt="Gráfico Harvard desenvolvimento cerebral" />
+              <svg
+                viewBox="0 0 700 460"
+                className="brain-chart"
+                role="img"
+                aria-label="Gráfico Harvard: desenvolvimento da linguagem no cérebro do bebê"
+              >
+                <rect width="700" height="460" fill="#ffffff" />
+                <text x="100" y="42" fontFamily="Georgia, serif" fontSize="24" fill="#1a1a1a">
+                  Center on the Developing Child
+                </text>
+                <text
+                  x="100"
+                  y="62"
+                  fontFamily="Arial, sans-serif"
+                  fontSize="13"
+                  letterSpacing="1"
+                  fill="#1a1a1a"
+                >
+                  HARVARD UNIVERSITY
+                </text>
+                <rect x="20" y="18" width="52" height="52" rx="4" fill="#A41E34" />
+                <text
+                  x="46"
+                  y="52"
+                  fontFamily="Georgia, serif"
+                  fontSize="22"
+                  fill="#ffffff"
+                  textAnchor="middle"
+                >
+                  H
+                </text>
+
+                <text
+                  x="350"
+                  y="108"
+                  fontFamily="'Baloo 2', Arial, sans-serif"
+                  fontSize="30"
+                  fontWeight="800"
+                  fill="#1a1a1a"
+                  textAnchor="middle"
+                >
+                  Human Brain Development
+                </text>
+                <text
+                  x="350"
+                  y="134"
+                  fontFamily="Arial, sans-serif"
+                  fontSize="15"
+                  fontWeight="700"
+                  fill="#1a1a1a"
+                  textAnchor="middle"
+                >
+                  Neural Connections for Language Develop Sequentially
+                </text>
+
+                <rect x="195" y="175" width="330" height="205" fill="#f3d4d8" />
+
+                <text
+                  x="330"
+                  y="165"
+                  fontFamily="Arial, sans-serif"
+                  fontSize="16"
+                  fontWeight="700"
+                  fill="#1a1a1a"
+                  textAnchor="middle"
+                >
+                  Language
+                </text>
+                <line x1="340" y1="172" x2="345" y2="208" stroke="#555555" strokeWidth="1.5" />
+
+                <path
+                  d="M140,380 C 190,330 230,225 310,210 C 345,203 375,210 410,245 C 450,290 490,315 540,322 C 590,328 635,328 680,325"
+                  fill="none"
+                  stroke="#1b1664"
+                  strokeWidth="7"
+                  strokeLinecap="round"
+                />
+
+                <line x1="60" y1="380" x2="680" y2="380" stroke="#000000" strokeWidth="3" />
+
+                <text
+                  x="360"
+                  y="358"
+                  fontFamily="'Baloo 2', Arial, sans-serif"
+                  fontSize="17"
+                  fontWeight="800"
+                  fill="#B23A48"
+                  textAnchor="middle"
+                >
+                  FIRST YEAR
+                </text>
+
+                {[
+                  { x: 140, label: "0" },
+                  { x: 350, label: "6" },
+                  { x: 480, label: "1" },
+                  { x: 535, label: "2" },
+                  { x: 585, label: "3" },
+                  { x: 630, label: "4" },
+                  { x: 668, label: "5" },
+                ].map((tick) => (
+                  <g key={tick.label + tick.x}>
+                    <line
+                      x1={tick.x}
+                      y1="380"
+                      x2={tick.x}
+                      y2="388"
+                      stroke="#000000"
+                      strokeWidth="2"
+                    />
+                    <text
+                      x={tick.x}
+                      y="402"
+                      fontFamily="Arial, sans-serif"
+                      fontSize="15"
+                      fontWeight="700"
+                      fill="#1a1a1a"
+                      textAnchor="middle"
+                    >
+                      {tick.label}
+                    </text>
+                  </g>
+                ))}
+
+                <text
+                  x="140"
+                  y="430"
+                  fontFamily="Arial, sans-serif"
+                  fontSize="15"
+                  fontWeight="700"
+                  fill="#1a1a1a"
+                  textAnchor="middle"
+                >
+                  Birth
+                </text>
+                <text
+                  x="350"
+                  y="430"
+                  fontFamily="Arial, sans-serif"
+                  fontSize="15"
+                  fontWeight="700"
+                  fill="#1a1a1a"
+                  textAnchor="middle"
+                >
+                  (Months)
+                </text>
+                <text
+                  x="575"
+                  y="430"
+                  fontFamily="Arial, sans-serif"
+                  fontSize="15"
+                  fontWeight="700"
+                  fill="#1a1a1a"
+                  textAnchor="middle"
+                >
+                  (Years)
+                </text>
+
+                <text
+                  x="680"
+                  y="452"
+                  fontFamily="Arial, sans-serif"
+                  fontSize="13"
+                  fill="#444444"
+                  textAnchor="end"
+                >
+                  Source: C.A. Nelson (2000)
+                </text>
+              </svg>
               <p>
                 <strong>Explicação:</strong> Segundo o gráfico do Harvard Center on the Developing
                 Child, aos 6 meses o bebê já está em pleno processo de aprendizagem da linguagem.
@@ -415,36 +587,49 @@ export default function SalesPage() {
             <div className="offer-item">
               <span className="ok">✓</span>
               <div>
-                <h4>🎓 Curso completo</h4>
-                <p>Passo a passo pra aplicar o método, sem enrolação.</p>
+                <h4>🎯 Método Semente Bilíngue completo</h4>
               </div>
             </div>
             <div className="offer-item">
               <span className="ok">✓</span>
               <div>
-                <h4>📖 Guia de vocabulário</h4>
-                <p>Frases prontas pra usar no dia a dia do bebê.</p>
+                <h4>📘 Apostila PDF do Método Semente Bilíngue</h4>
               </div>
             </div>
             <div className="offer-item">
               <span className="ok">✓</span>
               <div>
-                <h4>👨‍👩‍👧 Comunidade de pais</h4>
-                <p>Troca diária com quem tá vivendo o mesmo momento.</p>
+                <h4>🎥 Vídeos práticos do inglês na rotina do bebê</h4>
               </div>
             </div>
             <div className="offer-item">
               <span className="ok">✓</span>
               <div>
-                <h4>📔 Diário de Marcos</h4>
-                <p>Acompanhe a evolução bilíngue do seu bebê.</p>
+                <h4>🗣 Guia de frases do dia a dia</h4>
               </div>
             </div>
             <div className="offer-item">
               <span className="ok">✓</span>
               <div>
-                <h4>🎥 Aulas ao vivo</h4>
-                <p>Tire suas dúvidas direto comigo.</p>
+                <h4>📺 Lista de canais que ensinam</h4>
+              </div>
+            </div>
+            <div className="offer-item">
+              <span className="ok">✓</span>
+              <div>
+                <h4>🎵 Playlist de canções estratégicas</h4>
+              </div>
+            </div>
+            <div className="offer-item">
+              <span className="ok">✓</span>
+              <div>
+                <h4>🧠 Guia: O que NÃO fazer!</h4>
+              </div>
+            </div>
+            <div className="offer-item">
+              <span className="ok">✓</span>
+              <div>
+                <h4>📱 Grupo VIP no Instagram</h4>
               </div>
             </div>
           </div>
