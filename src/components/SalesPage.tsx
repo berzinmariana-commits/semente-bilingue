@@ -455,25 +455,38 @@ export default function SalesPage() {
         <section className="section bio">
           <img src="/images/image-4.png" alt="Hello, eu sou a Mari" />
           <p className="lead">
-            Sou a criadora do Método Semente Bilíngue, desenvolvido a partir da minha vivência
-            com a língua inglesa nos Estados Unidos e, principalmente, da experiência de aplicar
-            esse conhecimento na minha própria maternidade.
+            Sou a criadora do Método Semente Bilíngue, mas minha relação com o inglês começou
+            muito antes da maternidade.
           </p>
           <p className="lead">
-            Ao me tornar mãe, percebi que não precisava morar em um país de língua inglesa, falar
+            Tenho mais de 20 anos de vivência com a língua inglesa e, durante os anos em que
+            morei nos Estados Unidos, convivi de perto com diferentes famílias bilíngues e pude
+            observar, na prática, diferentes formas de crianças crescerem em contato com mais de
+            um idioma.
+          </p>
+          <p className="lead">
+            Quando me tornei mãe, comecei a olhar para tudo isso de uma forma diferente: como
+            trazer o inglês para a vida real de uma família que fala português?
+          </p>
+          <p className="lead">
+            Foi aí que percebi que eu não precisava morar em um país de língua inglesa, falar
             inglês o dia inteiro ou ser fluente para oferecer esse idioma às minhas filhas.
           </p>
           <p className="lead">
-            Mesmo vivendo em um ambiente predominantemente em português, no Brasil e atualmente
-            em Portugal, desenvolvi uma forma simples e estratégica de inserir o inglês na rotina
-            delas desde os primeiros meses de vida.
+            Mesmo vivendo em um ambiente predominantemente em português, primeiro no Brasil e
+            hoje em Portugal, comecei a inserir o inglês na rotina delas desde os primeiros meses
+            de vida de forma simples, intencional e prática.
           </p>
           <p className="lead">
-            Foi dessa experiência que nasceu o Método Semente Bilíngue: 5 etapas para ajudar
-            famílias a transformar a rotina que já têm em oportunidades reais de contato com o
-            inglês.
+            Foi dessa experiência que nasceu o Método Semente Bilíngue: um método em 5 etapas
+            para ajudar famílias a transformar a rotina que já têm em oportunidades reais de
+            contato com o inglês.
           </p>
-          <p className="lead">Agora, quero ensinar você a fazer o mesmo com o seu bebê.</p>
+          <p className="lead">
+            Agora, eu quero ensinar você a fazer o mesmo com o seu bebê, sem complicar a sua
+            rotina e sem precisar falar inglês perfeitamente.
+          </p>
+          <p className="lead">Vamos juntos nessa?</p>
           <a href={CHECKOUT_URL} className="btn">
             QUERO APRENDER
           </a>
@@ -581,8 +594,8 @@ export default function SalesPage() {
 
         {/* OFERTA */}
         <section className="section offer">
-          <span className="eyebrow">🎁 O QUE VOCÊ RECEBE</span>
-          <h2 className="title">Tudo pra aplicar o método em casa</h2>
+          <span className="eyebrow">🎁 O QUE VOCÊ RECEBE AO FAZER PARTE HOJE:</span>
+          <h2 className="title">Tudo direto ao ponto pra te ajudar</h2>
           <div className="offer-list">
             <div className="offer-item">
               <span className="ok">✓</span>
@@ -599,7 +612,7 @@ export default function SalesPage() {
             <div className="offer-item">
               <span className="ok">✓</span>
               <div>
-                <h4>🎥 Vídeos práticos do inglês na rotina do bebê</h4>
+                <h4>🎥 Vídeos com interações reais do inglês na rotina do bebê</h4>
               </div>
             </div>
             <div className="offer-item">
@@ -611,32 +624,53 @@ export default function SalesPage() {
             <div className="offer-item">
               <span className="ok">✓</span>
               <div>
-                <h4>📺 Lista de canais que ensinam</h4>
+                <h4>📱 Grupo VIP no Instagram para dúvidas</h4>
               </div>
             </div>
             <div className="offer-item">
               <span className="ok">✓</span>
               <div>
-                <h4>🎵 Playlist de canções estratégicas</h4>
+                <h4>🤝 Comunidade para interação entre famílias do Semente Bilíngue</h4>
               </div>
             </div>
-            <div className="offer-item">
-              <span className="ok">✓</span>
-              <div>
-                <h4>🧠 Guia: O que NÃO fazer!</h4>
+          </div>
+          <div className="offer-bonus">
+            <span className="offer-bonus-tag">🎁 BÔNUS EXTRAS</span>
+            <div className="offer-list offer-bonus-list">
+              <div className="offer-item">
+                <span className="ok">✓</span>
+                <div>
+                  <h4>📺 Lista de canais que ensinam</h4>
+                </div>
+              </div>
+              <div className="offer-item">
+                <span className="ok">✓</span>
+                <div>
+                  <h4>🎵 Playlist de canções estratégicas</h4>
+                </div>
+              </div>
+              <div className="offer-item">
+                <span className="ok">✓</span>
+                <div>
+                  <h4>🧠 Guia: O que NÃO fazer!</h4>
+                </div>
+              </div>
+              <div className="offer-item">
+                <span className="ok">✓</span>
+                <div>
+                  <h4>🗓️ Desafio 4 semanas - Do Método à Rotina</h4>
+                </div>
               </div>
             </div>
-            <div className="offer-item">
-              <span className="ok">✓</span>
-              <div>
-                <h4>📱 Grupo VIP no Instagram</h4>
-              </div>
-            </div>
+            <p className="offer-bonus-desc">
+              O passo a passo guiado por idade para te ajudar a saber exatamente como começar a
+              aplicar o método na sua rotina e já ver resultados.
+            </p>
           </div>
           <div className="price-card">
             <div className="pt">Método Semente Bilíngue</div>
             <div className="old">De R$ 597</div>
-            <div className="big">12x R$ 29,70</div>
+            <div className="big">12x de R$ 30,72</div>
             <div className="sub">ou R$ 297 à vista</div>
             <a href={CHECKOUT_URL} className="btn">
               🌟 Quero a minha vaga
@@ -680,9 +714,17 @@ export default function SalesPage() {
           </details>
           <details className="faq-item">
             <summary>
-              Meu bebê já passou dos 3 anos, funciona?<span className="chev">+</span>
+              Qual a idade ideal para começar?<span className="chev">+</span>
             </summary>
-            <p>Sim, várias famílias aplicam com sucesso até os 6 anos.</p>
+            <p>
+              No Método Semente Bilíngue, as estratégias são pensadas especialmente para bebês e
+              crianças de até 3 anos, aproveitando a fase em que a linguagem está em pleno
+              desenvolvimento.
+            </p>
+            <p>
+              Quanto antes o inglês fizer parte da rotina, mais oportunidades seu bebê terá de
+              ouvir, reconhecer e vivenciar o idioma.
+            </p>
           </details>
           <details className="faq-item">
             <summary>
@@ -701,8 +743,8 @@ export default function SalesPage() {
         {/* CTA FINAL */}
         <section className="section final">
           <h2>
-            Seu bebê já está no melhor momento pra aprender dois idiomas.
-            <br />E agora, você também.
+            Você já tem tudo o que precisa para começar!
+            <br />Agora, é só dar o primeiro passo.
           </h2>
           <a href={CHECKOUT_URL} className="btn">
             🌟 Quero criar meu bebê bilíngue

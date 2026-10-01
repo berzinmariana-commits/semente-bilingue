@@ -169,6 +169,17 @@ p.lead { font-size:14.5px; color:var(--navy-700); line-height:1.55; font-weight:
 .offer-item h4 { font-family:'Baloo 2',sans-serif; font-size:14px; margin-bottom:2px; }
 .offer-item p { font-size:12px; color:#c3ccdb; font-weight:600; line-height:1.35; }
 
+.offer-bonus { background:linear-gradient(135deg,var(--ambar-400),var(--laranja-500));
+  border-radius:20px; padding:18px 20px; margin-bottom:22px; box-shadow:0 8px 20px rgba(0,0,0,.2); }
+.offer-bonus-tag { display:inline-block; background:var(--navy-900); color:var(--ambar-400);
+  font-family:'Baloo 2',sans-serif; font-weight:800; font-size:11px; letter-spacing:.04em;
+  padding:4px 10px; border-radius:999px; margin-bottom:12px; }
+.offer-bonus-list { margin:0 0 10px; gap:8px; }
+.offer-bonus-list .offer-item h4 { color:var(--navy-900); }
+.offer-bonus-list .offer-item .ok { background:var(--navy-900); color:var(--ambar-400); }
+.offer-bonus-desc { font-size:12px; color:var(--navy-900); font-weight:700; line-height:1.4;
+  padding-left:34px; opacity:.85; }
+
 .price-card { background:var(--white); border-radius:24px; padding:26px 20px; text-align:center; }
 .price-card .pt { font-family:'Baloo 2',sans-serif; font-weight:800; font-size:20px; color:var(--navy-900); }
 .price-card .old { font-size:14px; color:var(--navy-500); text-decoration:line-through; font-weight:700; margin-top:8px; }
