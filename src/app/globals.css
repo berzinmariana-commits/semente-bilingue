@@ -29,8 +29,9 @@ h1,h2,h3,.display { font-family:'Baloo 2','Trebuchet MS',sans-serif; }
   padding:14px 24px; background:rgba(253,246,241,.92); backdrop-filter:blur(8px);
   border-bottom:1px solid var(--cream-200); }
 .topbar img { height:44px; width:auto; display:block; }
-.topbar .pill { margin-left:auto; font-size:13px; font-weight:800; color:var(--navy-900);
-  text-decoration:none; background:var(--cream-200); padding:9px 16px; border-radius:999px; }
+.topbar .pill { margin-left:auto; font-size:13px; font-weight:800; color:var(--white);
+  text-decoration:none; background:var(--laranja-500); padding:9px 16px; border-radius:999px;
+  box-shadow:0 3px 0 var(--laranja-600); }
 
 .section { padding:40px 24px; position:relative; }
 .eyebrow { display:inline-block; font-size:12px; font-weight:800; letter-spacing:.08em;
@@ -134,11 +135,19 @@ p.lead { font-size:14.5px; color:var(--navy-700); line-height:1.55; font-weight:
   z-index:2; opacity:.3; transform:scale(.7); transition:opacity .4s ease, transform .4s ease; }
 .tl-step.in-view .tl-dot { opacity:1; transform:scale(1); }
 .tl-content { opacity:.4; transition:opacity .4s ease; border-radius:14px; padding:12px 14px;
-  border:1px solid transparent; margin-top:-2px; }
+  border:1px solid transparent; margin-top:-2px; width:100%; }
 .tl-step.in-view .tl-content { opacity:1; }
-.tl-content h4 { font-family:'Baloo 2',sans-serif; font-size:14.5px; color:var(--navy-900); margin-bottom:4px; }
-.tl-content p { font-size:12.5px; color:var(--navy-700); font-weight:600; line-height:1.4; margin-bottom:6px; }
-.tl-content p:last-child { margin-bottom:0; }
+.tl-content summary { display:flex; align-items:center; justify-content:space-between; gap:10px;
+  list-style:none; cursor:pointer; }
+.tl-content summary::-webkit-details-marker { display:none; }
+.tl-content h4 { font-family:'Baloo 2',sans-serif; font-size:14.5px; color:var(--navy-900); }
+.tl-content[open] h4 { margin-bottom:0; }
+.tl-content .tl-chev { font-size:15px; font-weight:800; color:inherit; opacity:.6; flex-shrink:0;
+  transition:transform .2s ease; }
+.tl-content[open] .tl-chev { transform:rotate(90deg); }
+.tl-content p { font-size:12.5px; color:var(--navy-700); font-weight:600; line-height:1.4;
+  margin-top:8px; }
+.tl-content p:first-of-type { margin-top:10px; }
 .tl-content.step-1 { background:color-mix(in srgb, var(--etapa-1) 10%, var(--cream-50));
   border-color:color-mix(in srgb, var(--etapa-1) 35%, transparent); }
 .tl-content.step-2 { background:color-mix(in srgb, var(--etapa-2) 14%, var(--cream-50));

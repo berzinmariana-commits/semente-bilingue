@@ -45,7 +45,7 @@ export default function SalesPage() {
       <div className="topbar">
         <img src="/images/image-1.png" alt="Semente Bilíngue" />
         <a href={CHECKOUT_URL} className="pill">
-          Garantir vaga
+          QUERO APRENDER
         </a>
       </div>
 
@@ -515,21 +515,27 @@ export default function SalesPage() {
               <div className="tl-dot" style={{ background: "var(--etapa-1)" }}>
                 1
               </div>
-              <div className="tl-content step-1">
-                <h4>🌱 Preparar o solo</h4>
+              <details className="tl-content step-1">
+                <summary>
+                  <h4>🌱 Preparar o solo</h4>
+                  <span className="chev tl-chev">&gt;</span>
+                </summary>
                 <p>
                   Você aprende a preparar o ambiente da sua casa para o inglês usando a rotina que
                   seu bebê já tem.
                 </p>
                 <p>Sem criar uma rotina impossível de manter.</p>
-              </div>
+              </details>
             </div>
             <div className="tl-step">
               <div className="tl-dot" style={{ background: "var(--etapa-2)" }}>
                 2
               </div>
-              <div className="tl-content step-2">
-                <h4>🗣️ Plantar a semente</h4>
+              <details className="tl-content step-2">
+                <summary>
+                  <h4>🗣️ Plantar a semente</h4>
+                  <span className="chev tl-chev">&gt;</span>
+                </summary>
                 <p>
                   Aqui você aprende como começar a interagir em inglês com seu bebê na prática.
                 </p>
@@ -537,14 +543,17 @@ export default function SalesPage() {
                   Frases simples, vocabulário, músicas e interações que fazem sentido para a fase
                   da criança e com o nível do seu inglês.
                 </p>
-              </div>
+              </details>
             </div>
             <div className="tl-step">
               <div className="tl-dot" style={{ background: "var(--etapa-3)" }}>
                 3
               </div>
-              <div className="tl-content step-3">
-                <h4>💧 Regar</h4>
+              <details className="tl-content step-3">
+                <summary>
+                  <h4>💧 Regar</h4>
+                  <span className="chev tl-chev">&gt;</span>
+                </summary>
                 <p>É aqui que muitos pais travam.</p>
                 <p>
                   Eles até começam, mas não sabem como manter o idioma vivo de uma forma que gere
@@ -554,28 +563,34 @@ export default function SalesPage() {
                   Você vai saber exatamente como regar o inglês com intenção, repetição, interação
                   e estratégias que favorecem a aprendizagem.
                 </p>
-              </div>
+              </details>
             </div>
             <div className="tl-step">
               <div className="tl-dot" style={{ background: "var(--etapa-4)" }}>
                 4
               </div>
-              <div className="tl-content step-4">
-                <h4>🍎 Colher</h4>
+              <details className="tl-content step-4">
+                <summary>
+                  <h4>🍎 Colher</h4>
+                  <span className="chev tl-chev">&gt;</span>
+                </summary>
                 <p>E então começam a aparecer os primeiros frutos.</p>
                 <p>
                   Seu bebê começa a reconhecer, compreender, responder e, progressivamente,
                   interagir em inglês, mesmo sem morar em um país de língua inglesa. É incrível de
                   ver o potencial deles nessa fase! 🤩
                 </p>
-              </div>
+              </details>
             </div>
             <div className="tl-step">
               <div className="tl-dot" style={{ background: "var(--etapa-5)" }}>
                 5
               </div>
-              <div className="tl-content step-5">
-                <h4>🌳 Expandir</h4>
+              <details className="tl-content step-5">
+                <summary>
+                  <h4>🌳 Expandir</h4>
+                  <span className="chev tl-chev">&gt;</span>
+                </summary>
                 <p>
                   Depois que você entende como funciona, o inglês deixa de ser uma atividade
                   isolada.
@@ -588,7 +603,7 @@ export default function SalesPage() {
                   Não existe uma única forma de criar um bebê bilíngue, existe a forma que
                   funciona para a sua família, e eu te explico como conduzir em cada um deles.
                 </p>
-              </div>
+              </details>
             </div>
           </div>
         </section>
