@@ -225,3 +225,24 @@ details.faq-item p { font-size:12.5px; color:var(--navy-700); font-weight:600; l
 .foot .badge-logo { display:inline-block; background:var(--white); padding:8px 14px; border-radius:16px; }
 .foot .badge-logo img { height:36px; width:auto; display:block; }
 .foot p { font-size:12px; line-height:1.6; color:var(--navy-700); }
+
+/* MOBILE: espaçamento mais compacto e harmônico */
+@media (max-width:480px) {
+  .section { padding:28px 20px; }
+  .callout-section { padding-top:14px; padding-bottom:14px; }
+  h2.title { margin-bottom:8px; }
+  .eyebrow { margin-bottom:8px; }
+  p.lead { margin-bottom:0; }
+  .method p.lead, .bio p.lead { margin-bottom:8px; }
+  .science-subtitle { margin-bottom:12px; }
+  .science-card { margin-bottom:10px; }
+  .problem-list { gap:8px; margin:12px 0 14px; }
+  .offer-list { gap:8px; margin:12px 0 16px; }
+  .compare { row-gap:6px; margin:14px 0; }
+  .method-timeline { margin-top:14px; }
+  .tl-step { padding-bottom:18px; }
+  .punchline { padding:16px; }
+  .offer-bonus { padding:16px; margin-bottom:16px; }
+  .price-card { padding:22px 18px; }
+  .shield { margin-bottom:12px; }
+}
