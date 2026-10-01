@@ -460,13 +460,14 @@ export default function SalesPage() {
           </p>
           <p className="lead">
             Tenho mais de 20 anos de vivência com a língua inglesa e, durante os anos em que
-            morei nos Estados Unidos, convivi de perto com diferentes famílias bilíngues e pude
+            morei nos Estados Unidos, convivi de perto com diversas famílias bilíngues e pude
             observar, na prática, diferentes formas de crianças crescerem em contato com mais de
             um idioma.
           </p>
           <p className="lead">
             Quando me tornei mãe, comecei a olhar para tudo isso de uma forma diferente: como
-            trazer o inglês para a vida real de uma família que fala português?
+            fazer com que minha filha crescesse ouvindo, entendendo e vivendo o inglês, enquanto
+            construía naturalmente sua relação com o português?
           </p>
           <p className="lead">
             Foi aí que percebi que eu não precisava morar em um país de língua inglesa, falar
@@ -478,9 +479,9 @@ export default function SalesPage() {
             de vida de forma simples, intencional e prática.
           </p>
           <p className="lead">
-            Foi dessa experiência que nasceu o Método Semente Bilíngue: um método em 5 etapas
-            para ajudar famílias a transformar a rotina que já têm em oportunidades reais de
-            contato com o inglês.
+            Foi dessa experiência, dos aprendizados e dos resultados que vivi na prática com
+            minhas filhas que nasceu o Método Semente Bilíngue: 5 etapas para ajudar famílias a
+            transformar a rotina que já têm em oportunidades reais de contato com o inglês.
           </p>
           <p className="lead">
             Agora, eu quero ensinar você a fazer o mesmo com o seu bebê, sem complicar a sua
@@ -669,14 +670,18 @@ export default function SalesPage() {
           </div>
           <div className="price-card">
             <div className="pt">Método Semente Bilíngue</div>
+            <div className="lifetime">💎 ACESSO VITALÍCIO</div>
             <div className="old">De R$ 597</div>
             <div className="big">12x de R$ 30,72</div>
-            <div className="sub">ou R$ 297 à vista</div>
+            <div className="sub">ou apenas R$ 297 à vista</div>
             <a href={CHECKOUT_URL} className="btn">
               🌟 Quero a minha vaga
             </a>
             <div className="note">Pagamento seguro pela Kiwify · acesso imediato</div>
           </div>
+          <p className="offer-closing">
+            O seu bebê vai crescer, o acesso ao método continua com vocês.
+          </p>
         </section>
 
         {/* DEPOIMENTOS */}
