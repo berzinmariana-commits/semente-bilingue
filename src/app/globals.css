@@ -144,7 +144,7 @@ p.lead { font-size:14.5px; color:var(--navy-700); line-height:1.55; font-weight:
 .tl-content[open] h4 { margin-bottom:0; }
 .tl-content .tl-chev { font-size:15px; font-weight:800; color:inherit; opacity:.6; flex-shrink:0;
   transition:transform .2s ease; }
-.tl-content[open] .tl-chev { transform:rotate(90deg); }
+.tl-content[open] .tl-chev { transform:rotate(45deg); }
 .tl-content p { font-size:12.5px; color:var(--navy-700); font-weight:600; line-height:1.4;
   margin-top:8px; }
 .tl-content p:first-of-type { margin-top:10px; }

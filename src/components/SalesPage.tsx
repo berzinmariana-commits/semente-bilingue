@@ -518,7 +518,7 @@ export default function SalesPage() {
               <details className="tl-content step-1">
                 <summary>
                   <h4>🌱 Preparar o solo</h4>
-                  <span className="chev tl-chev">&gt;</span>
+                  <span className="chev tl-chev">+</span>
                 </summary>
                 <p>
                   Você aprende a preparar o ambiente da sua casa para o inglês usando a rotina que
@@ -534,7 +534,7 @@ export default function SalesPage() {
               <details className="tl-content step-2">
                 <summary>
                   <h4>🗣️ Plantar a semente</h4>
-                  <span className="chev tl-chev">&gt;</span>
+                  <span className="chev tl-chev">+</span>
                 </summary>
                 <p>
                   Aqui você aprende como começar a interagir em inglês com seu bebê na prática.
@@ -552,7 +552,7 @@ export default function SalesPage() {
               <details className="tl-content step-3">
                 <summary>
                   <h4>💧 Regar</h4>
-                  <span className="chev tl-chev">&gt;</span>
+                  <span className="chev tl-chev">+</span>
                 </summary>
                 <p>É aqui que muitos pais travam.</p>
                 <p>
@@ -572,7 +572,7 @@ export default function SalesPage() {
               <details className="tl-content step-4">
                 <summary>
                   <h4>🍎 Colher</h4>
-                  <span className="chev tl-chev">&gt;</span>
+                  <span className="chev tl-chev">+</span>
                 </summary>
                 <p>E então começam a aparecer os primeiros frutos.</p>
                 <p>
@@ -589,7 +589,7 @@ export default function SalesPage() {
               <details className="tl-content step-5">
                 <summary>
                   <h4>🌳 Expandir</h4>
-                  <span className="chev tl-chev">&gt;</span>
+                  <span className="chev tl-chev">+</span>
                 </summary>
                 <p>
                   Depois que você entende como funciona, o inglês deixa de ser uma atividade
